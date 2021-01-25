@@ -3,6 +3,8 @@ import { useQuery, ApolloError, useMutation } from "@apollo/client";
 import gql from "graphql-tag";
 import { Button } from "@material-ui/core";
 import "./style.css";
+import Loader from "./Loader";
+
 const All_book = gql`
   {
     books {
@@ -35,7 +37,7 @@ const AllBook = () => {
 
   return (
     <div>
-      {loading && <h1>Loading....</h1>}
+      {loading && <Loader />}
       {error && <p>Error: ${error.graphQLErrors}</p>}
 
       {data && data.books && (

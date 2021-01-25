@@ -2,7 +2,7 @@ import React from "react";
 import { useQuery, ApolloError, useMutation } from "@apollo/client";
 import gql from "graphql-tag";
 import { Button } from "@material-ui/core";
-
+import "./style.css";
 const All_book = gql`
   {
     books {

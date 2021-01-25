@@ -9,7 +9,7 @@
 
 ## Live Review
 
-[Click Here](https://github.com/bilalhadid)
+[Click Here](https://bookmarking-app-bilal.netlify.app/)
 
 ## 🚀 Quick start
 
